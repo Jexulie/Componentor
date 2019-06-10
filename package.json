@@ -1,0 +1,21 @@
+{
+  "name": "componentor",
+  "version": "1.0.0",
+  "description": "Vue JS Component Maker to NPM publish",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Vue",
+    "Js",
+    "vuejs",
+    "component",
+    "maker"
+  ],
+  "author": "Jexulie",
+  "license": "MIT"
+}
