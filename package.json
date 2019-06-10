@@ -2,15 +2,15 @@
   "name": "componentor",
   "version": "1.0.0",
   "description": "Vue JS Component Maker to NPM publish",
-  "main": "index.js",
+  "main": "lib/cli.js",
   "directories": {
     "lib": "lib"
   },
   "bin": {
-    "componentor": "index.js"
+    "componentor": "bin/componentor"
   },
   "publishConfig": {
-    "access":"publish"
+    "access": "publish"
   },
   "keywords": [
     "Vue",
