@@ -1,4 +1,8 @@
-const main = require('./lib/main');
+// const main = require('./lib/main');
 
 // Start Point
-main.start();
+// main.start();
+
+var q = require('./lib/cli');
+
+q.createIndex(['FlockButton', 'FlockBanner', 'DudeCraft'])

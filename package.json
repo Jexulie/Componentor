@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "keywords": [
     "Vue",
@@ -17,5 +17,11 @@
     "maker"
   ],
   "author": "Jexulie",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "execa": "^1.0.0",
+    "listr": "^0.14.3",
+    "meow": "^5.0.0"
+  }
 }
