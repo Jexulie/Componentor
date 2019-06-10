@@ -6,15 +6,19 @@
   "directories": {
     "lib": "lib"
   },
-  "scripts": {
-    "start": "node index.js"
+  "bin": {
+    "componentor": "index.js"
+  },
+  "publishConfig": {
+    "access":"publish"
   },
   "keywords": [
     "Vue",
     "Js",
     "vuejs",
     "component",
-    "maker"
+    "maker",
+    "cli"
   ],
   "author": "Jexulie",
   "license": "MIT",

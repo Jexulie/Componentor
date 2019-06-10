@@ -1,7 +1,4 @@
-// const main = require('./lib/main');
+const main = require('./lib/cli');
 
 // Start Point
-// main.start();
-
-var q = require('./lib/cli');
-q.changePkg('Custom-Component', 'Dude@custom-component')
+main.start();
