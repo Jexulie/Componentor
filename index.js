@@ -4,5 +4,4 @@
 // main.start();
 
 var q = require('./lib/cli');
-
-q.createIndex(['FlockButton', 'FlockBanner', 'DudeCraft'])
+q.changePkg('Custom-Component', 'Dude@custom-component')
